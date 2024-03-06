@@ -7,6 +7,7 @@ namespace PizzaStore
         static void Main(string[] args)
         {
             Store.Start(); // Initiates the pizza store application.
+            Console.WriteLine("Made by Amir Jawad.");
             Console.ReadKey();
         }
     }
