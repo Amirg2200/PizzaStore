@@ -12,7 +12,7 @@ namespace PizzaStore
         // Main method to start the store interaction.
         public static void Start()
         {
-            
+            // Welcomes the user to the Pizzaria.
             Console.WriteLine("Welcome to Big Mama Pizzaria!");
 
             // Display available pizza types and prices.
