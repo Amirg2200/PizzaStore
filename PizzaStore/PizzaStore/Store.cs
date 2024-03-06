@@ -54,7 +54,7 @@ namespace PizzaStore
 
                         // Input and create customer object.
                         Console.Write("Enter Customer name: ");
-                        string customerName = Console.ReadLine();
+                        string customerName = Console.ReadLine() + ".";
                         Customer customer = new Customer(customerName);
 
                         // Create and display order object with pizza, topping, and customer details.
